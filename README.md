@@ -1,2 +1,23 @@
-# NumberLinkBot
-The bot detects a phone number and instantly creates links to Telegram, WhatsApp, Viber and more. You can also generate a vCard contact without saving the number manually. Fast, easy, convenient!
+# [📱 NumberLinkBot](https://t.me/NumberLinkBot)
+
+Telegram-бот для мгновенного создания ссылок на мессенджеры по номеру телефона и генерации `.vcf`-контактов.
+
+## 🚀 Возможности
+
+- Автоматически распознаёт номера телефонов в любом формате (с пробелами, скобками и дефисами)
+- Определяет страну и показывает флаг
+- Генерирует прямые ссылки на:
+  - [Telegram](https://t.me/)
+  - [WhatsApp](https://wa.me/)
+  - [Viber](https://viber.click/)
+- Создаёт `.vcf`-файл с контактной карточкой
+- Отправляет контакт, готовый к сохранению
+- Поддерживает Windows, Android и iOS
+
+## 🛠 Технологии
+
+- Python 3.10+
+- [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) v20+
+- Unicode / Quoted-Printable кодировка для кроссплатформенной совместимости
+- Формат vCard 3.0 (с поддержкой Windows)
+
